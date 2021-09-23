@@ -11,7 +11,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-<script src="https://vtracks.co.id/assets/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
   </head>
   <body>
   <div class="col-lg-8 mx-auto p-3 py-md-5">
@@ -77,7 +76,6 @@
 
       $('#kota_tujuan').select2({
        placeholder: 'Pilih kota/kabupaten tujuan',
-       language: "id"
       });
 
       $.ajax({
